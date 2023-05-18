@@ -4,9 +4,14 @@
     {
         static void Main(string[] args)
         {
-            //Add(5, 6);
+            
+            Add(5, 6);
+            var intadd = Add (5, 6);
+            Console.WriteLine(intadd);
             Add(7.2, 8.9);
-            //Add(1, 0, true);
+            var decimalAdd = Add(7.2, 8.9);
+            Console.WriteLine(decimalAdd);
+            Add(1, 0, true);
         }
         public static int Add(int num1, int num2)
         {
